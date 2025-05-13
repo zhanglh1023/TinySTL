@@ -1,0 +1,30 @@
+﻿  main.cpp
+C:\Users\zlh\Desktop\C++\C++STL\C++STL\main.cpp(106,12): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  C:\Users\zlh\Desktop\C++\C++STL\C++STL\main.cpp(106,12):
+  模板实例化上下文(最早的实例化上下文)为
+  	C:\Users\zlh\Desktop\C++\C++STL\C++STL\main.cpp(126,15):
+  	查看对正在编译的 类 模板 实例化“Vector<Test,Allocator<T>>”的引用
+          with
+          [
+              T=Test
+          ]
+  	C:\Users\zlh\Desktop\C++\C++STL\C++STL\main.cpp(105,7):
+  	在编译 类 模板 成员函数“void Vector<Test,Allocator<T>>::expend(void)”时
+          with
+          [
+              T=Test
+          ]
+  		C:\Users\zlh\Desktop\C++\C++STL\C++STL\main.cpp(74,21):
+  		请参阅 "Vector<Test,Allocator<T>>::push_back" 中对 "Vector<Test,Allocator<T>>::expend" 的第一个引用
+          with
+          [
+              T=Test
+          ]
+  		C:\Users\zlh\Desktop\C++\C++STL\C++STL\main.cpp(127,13):
+  		请参阅 "main" 中对 "Vector<Test,Allocator<T>>::push_back" 的第一个引用
+          with
+          [
+              T=Test
+          ]
+  
+  C++STL.vcxproj -> C:\Users\zlh\Desktop\C++\C++STL\x64\Debug\C++STL.exe
